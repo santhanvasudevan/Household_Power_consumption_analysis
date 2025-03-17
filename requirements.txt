@@ -1,0 +1,6 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pickle5  # Only for Python < 3.8
