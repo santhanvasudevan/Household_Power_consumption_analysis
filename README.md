@@ -8,7 +8,7 @@ The goal of this project is to analyze and predict `Global_active_power` using h
 ## 📂 Folder Structure
 ```
 📦 project-folder
-├── 📂 data                  # Raw and processed data
+├── 📂 data                  # Raw data
 ├── 📂 models                # Saved trained models
 ├── 📂 notebooks             # Jupyter notebooks for analysis
 ├── 📜 train.py              # Main script to load data, preprocess & train models
