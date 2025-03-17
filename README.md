@@ -45,7 +45,7 @@ python train.py
 ```
 
 ### 4️⃣ Perform Inference on New Data
-Once trained, use `inference.py` to make predictions(new data should be in this file: data\new_data.csv):
+Once trained, use `inference.py` to make predictions(new data should be in this file: `data\new_data.csv`):
 ```bash
 python inference.py
 ```
