@@ -11,6 +11,7 @@ The goal of this project is to analyze and predict `Global_active_power` using h
 ├── 📂 data                  # Raw data
 ├── 📂 models                # Saved trained models
 ├── 📂 notebooks             # Jupyter notebooks for analysis
+├── 📂 screenshots           # Model Performance results screenshots
 ├── 📜 train.py              # Main script to load data, preprocess & train models
 ├── 📜 inference.py          # Script for making predictions on new data
 ├── 📜 requirements.txt      # List of dependencies
