@@ -134,7 +134,7 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test, feature_names, scaler = preprocess_data(df)
 
     # Save the scaler
-    with open("scaler.pkl", "wb") as file:
+    with open("models\\scaler.pkl", "wb") as file:
         pickle.dump(scaler, file)
 
     # Train and evaluate models
@@ -148,7 +148,7 @@ if __name__ == "__main__":
         evaluate_model(model, X_test, y_test)
     
         # Save each model with a unique filename
-        model_filename = f"trained_model_{model_type}.pkl"
+        model_filename = f"models\\trained_model_{model_type}.pkl"
         with open(model_filename, "wb") as file:
             pickle.dump(model, file)
     
