@@ -38,7 +38,8 @@ pip install -r requirements.txt
 ```
 
 ### 3️⃣ Train the Models
-Run the following script to load, preprocess & train the models:
+Extract the household_power_consumption.zip folder contents directly inside data folder. Keep the extracted data file directly inside the data folder
+Then, Run the following script to load, preprocess & train the models:
 ```bash
 python train.py
 ```
