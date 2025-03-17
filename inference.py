@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Load trained model
 def load_model(model_type):
-    model_filename = f"trained_model_{model_type}.pkl"
+    model_filename = f"models\\trained_model_{model_type}.pkl"
     with open(model_filename, "rb") as file:
         model = pickle.load(file)
     return model
@@ -46,7 +46,7 @@ def make_predictions(model, X, index):
 
 if __name__ == "__main__":
     model_types = ["random_forest", "gradient_boosting", "linear_regression"]
-    X_new, index = preprocess_new_data("new_data.csv", "scaler.pkl")
+    X_new, index = preprocess_new_data("new_data.csv", "models\\scaler.pkl")
 
     # Predict using each model and save results
     for model_type in model_types:
