@@ -37,15 +37,15 @@ cd your-repo
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Train the Models
-Extract the household_power_consumption.zip folder contents directly inside data folder. Keep the extracted data file directly inside the data folder
+### 3️⃣ Load data & Train the Models
+Extract the household_power_consumption.zip folder contents directly inside data folder. Keep the extracted data file directly inside the data folder like data\household_power_consumption.txt
 Then, Run the following script to load, preprocess & train the models:
 ```bash
 python train.py
 ```
 
 ### 4️⃣ Perform Inference on New Data
-Once trained, use `inference.py` to make predictions(new data should be in this file: new_data.csv):
+Once trained, use `inference.py` to make predictions(new data should be in this file: data\new_data.csv):
 ```bash
 python inference.py
 ```
